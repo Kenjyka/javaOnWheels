@@ -2,11 +2,12 @@ class hello
 {
     public static void main(String a[])
     {
-        int num1 = 3;
-        int num2 = 5;
-        int result = num1 + num2;
+        //literals
 
-        System.out.println(result);
+        char c = 'a';
+        c++;
+        System.out.println(c);
+
 
     }
         
