@@ -1,13 +1,13 @@
 class hello
 {
-    public static void main(String a[])
+    public static void main(String args[])
     {
-        //literals
+        byte a = 10;
+        byte b = 30;
 
-        char c = 'a';
-        c++;
-        System.out.println(c);
+        int result = a * b;
 
+        System.out.println(result);
 
     }
         
