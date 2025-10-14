@@ -2,17 +2,26 @@ class hello
 {
     public static void main(String args[])
     {
+
+        int x = 8;
+        int y = 7;
+        int z = 9;
+
      
-     int x = 7;
-     int y = 5;
+        if (x > y && x > z) 
+        {
+            System.out.println(x);
+        }
+        else if (y > z)
+        {
+            System.out.println(y);
+        } 
+        else 
+        {
+            System.out.println(z)
+        }
 
-     int a = 5;
-     int b = 9;
-
-
-     boolean result = x < y || a < b;
-
-     System.out.println(!result);
+     
 
     }
         
